@@ -1,0 +1,14 @@
+.container {
+    background-color: var(--background-color-second);
+    padding-left: 56px;
+    padding-right: 56px;
+    width: 100%;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        
+    padding-left: 120px;
+    padding-right: 120px;
+    }
+}

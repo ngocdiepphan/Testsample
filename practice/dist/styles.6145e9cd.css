@@ -1,0 +1,320 @@
+:root {
+    --color-primary-transparency: #242424;
+    --color-primary: #071c1f;
+    --color-second: #9eabb2;
+    --color-tertiary: #fff;
+    --color-quaternary: #ff5a3c;
+    --color-gray-light: #666;
+  
+    --background-color-primary: #fff;
+    --background-color-second: #171b2a;
+    --background-color-tertiary: #f2f6f7;
+
+    --btn-color-primary:#ff5a3c;
+
+  
+    /* --border-primary: 1px solid rgba(25, 24, 37, 0.1);
+    --border-button: 1px solid rgb(238, 238, 238); */
+  
+    --font-weight-regular: 400;
+
+    --font-primary: "Poppins";
+	--font-secondary: "Nunito";
+	/* --tertiary-font: "Montserrat"; */
+  }
+* {
+    box-sizing: border-box;
+    padding: 0;
+  }
+  
+  body {
+    background-color: var(--background-color-primary);
+    font-size: 16px;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  html {
+    font-size: 16px;
+    height: 100%;
+  }
+  
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol,
+ul {
+	list-style: none;
+}
+blockquote,
+q {
+	quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: "";
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+@font-face {
+	font-family: "Poppins";
+	src: url(/Poppins-Regular.3d15a542.ttf) format("truetype");
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+@font-face {
+	font-family: "Nunito";
+	src: url(/Nunito-VariableFont_wght.87bf395b.ttf) format("truetype");
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.7;
+}
+
+.container {
+    background-color: var(--background-color-second);
+    padding-left: 56px;
+    padding-right: 56px;
+    width: 100%;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        
+    padding-left: 120px;
+    padding-right: 120px;
+    }
+}
+
+
+.header-contact {
+    height: 88px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+@media (min-width: 1200px) {
+    .header-contact {
+        height: 48px;
+        flex-direction: row;
+        gap: n;
+    }
+
+}
+
+.contact-wrapper {
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 1200px) {
+    .contact-wrapper {
+        flex-direction: row;
+        gap: 38px;
+    }
+}
+
+.contact-address {
+    color: var(--color-tertiary);
+    font-size: 12px;
+    font-family: var(--font-primary);
+}
+
+@media (min-width: 1200px) {
+    .contact-address {
+        font-size: 14px;
+    }
+}
+
+.contact-social {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+
+}
+
+/* @media (min-width: 1200px) {
+    .contact-social {
+        
+    }
+    
+} */
+.contact-link {
+    display: flex;
+    gap: 8px;
+}
+
+.icon-envelope {
+    background-image: url('/envelope.645ee32d.svg');
+    width: 16px;
+    height: 12px;
+}
+
+.icon-location {
+    background-image: url('/location.1f079381.svg');
+    width: 13px;
+    height: 15px;
+}
+
+.icon-facebook {
+    background-image: url('/icon-facebook.1c2dc6d6.svg');
+    width: 13px;
+    height: 17px;
+}
+
+.icon-twitter {
+    background-image: url('/icon-twitter.65d911e4.svg');
+    width: 20px;
+    height: 17px;
+
+}
+
+.icon-instagram {
+    background-image: url('/icon-instagram.dbadbd96.svg');
+    width: 18px;
+    height: 17px;
+}
+
+.icon-youtube {
+    background-image: url('/icon-youtube.27e51cb5.svg');
+    width: 21px;
+    height: 17px;
+}
+
+.icon-pinterset {
+    background-image: url('/icon-pinterset.f7077cdb.svg');
+    width: 20px;
+    height: 17px;
+}
+.icon {
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+}
+
+
+
+/*# sourceMappingURL=/styles.6145e9cd.css.map */

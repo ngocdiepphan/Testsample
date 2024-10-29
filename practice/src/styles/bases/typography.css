@@ -1,0 +1,15 @@
+@font-face {
+	font-family: "Poppins";
+	src: url(../../assets/fonts/Poppins-Regular.ttf) format("truetype");
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+@font-face {
+	font-family: "Nunito";
+	src: url(../../assets/fonts/Nunito-VariableFont_wght.ttf) format("truetype");
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.7;
+}
