@@ -1,0 +1,53 @@
+.revenue {
+  width: 140px;
+  height: 150px;
+  border-radius: 10px;
+  background-color: var(--background-color-primary);
+  padding-left: 30px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  /* left: 40%;
+   */
+   right: 15%;
+  top: 50%;
+  gap: 20px;
+  padding-top: 15px;
+}
+
+.increase {
+  width: 40px;
+  height: 40px;
+
+}
+
+.revenue-total {
+font-size: 20px;
+font-weight: 600;
+}
+
+.revenue-title {
+  color: var(--color-second);
+}
+
+
+@media (min-width: 1200px) {
+  .revenue {
+    width: 230px;
+    height: 190px;
+    display: flex;
+    flex-direction: column;
+    left: 42%;
+    top: 53%;
+    padding-top: 30px;
+  }
+
+  .increase {
+    width: 50px;
+    height: 50px;
+  }
+
+  .revenue-total {
+    font-size: 26px;
+    }
+}

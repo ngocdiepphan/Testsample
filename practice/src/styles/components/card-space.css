@@ -1,0 +1,47 @@
+.space-card {
+  display: flex;
+  flex-direction: row;
+  gap: 18px;
+}
+.space-description {
+  font-size: 16;
+  font-family: var(--font-secondary);
+  color: #899aa2;
+  line-height: 1.77;
+  padding-top: 10px;
+}
+.space-wrapper {
+  width: 300px;
+}
+.space-title {
+  font-size: 22px;
+  font-weight: 600;
+  font-family: var(--font-secondary);
+}
+
+.icon-home {
+  background-image: url('../../assets/images/icons/clarity_home-line.svg');
+  width: 51px;
+  height: 51px;
+}
+.icon-user {
+  background-image: url('../../assets/images/icons/clarity_user-outline-alerted.svg');
+  width: 50px;
+  height: 49px;
+}
+.icon-local {
+  background-image: url('../../assets/images/icons/fluent_globe-location.svg');
+  width: 51px;
+  height: 52px;
+}
+
+@media (min-width: 1200px) {
+  .space-title {
+    font-size: 24px;
+  }
+
+  .space-wrapper {
+    width: 380px;
+    height: 128px;
+  }
+}

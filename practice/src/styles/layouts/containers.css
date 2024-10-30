@@ -7,8 +7,16 @@
 
 @media (min-width: 1200px) {
     .container {
-        
     padding-left: 120px;
     padding-right: 120px;
     }
+}
+
+.container-content {
+  background-color: var(--background-color-primary);
+}
+
+.container-aqua {
+background-color: var(--background-color-aqua);
+width: 100%;
 }

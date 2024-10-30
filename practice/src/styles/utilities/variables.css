@@ -1,24 +1,25 @@
 :root {
-    --color-primary-transparency: #242424;
-    --color-primary: #071c1f;
-    --color-second: #9eabb2;
-    --color-tertiary: #fff;
-    --color-quaternary: #ff5a3c;
-    --color-gray-light: #666;
-  
-    --background-color-primary: #fff;
-    --background-color-second: #171b2a;
-    --background-color-tertiary: #f2f6f7;
+  --color-primary-transparency: #242424;
+  --color-primary: #071c1f;
+  --color-second: #9eabb2;
+  --color-tertiary: #fff;
+  --color-quaternary: #ff5a3c;
+  --color-gray-light: #666;
 
-    --btn-color-primary:#ff5a3c;
+  --background-color-primary: #fff;
+  --background-color-second: #171b2a;
+  --background-color-tertiary: #c4c4c4;
+  --background-color-aqua: #f2f6f7;
 
-  
-    /* --border-primary: 1px solid rgba(25, 24, 37, 0.1);
+  --btn-color-primary: #ff5a3c;
+
+
+  /* --border-primary: 1px solid rgba(25, 24, 37, 0.1);
     --border-button: 1px solid rgb(238, 238, 238); */
-  
-    --font-weight-regular: 400;
 
-    --font-primary: "Poppins";
-	--font-secondary: "Nunito";
-	/* --tertiary-font: "Montserrat"; */
-  }
+  --font-weight-regular: 400;
+
+  --font-primary: "Poppins";
+  --font-secondary: "Nunito";
+  /* --tertiary-font: "Montserrat"; */
+}

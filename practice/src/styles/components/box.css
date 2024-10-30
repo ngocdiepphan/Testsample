@@ -1,0 +1,44 @@
+.house {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  padding-bottom: 23px;
+}
+
+.box {
+  width: 88px;
+  height: 60px;
+  background-color: #848484;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 5px;
+  position: relative;
+  cursor: pointer;
+  font-size: 10px;
+  margin-top: 40px;
+  color: var(--color-tertiary);
+}
+
+.box:hover {
+  width: 114px;
+  height: 80px;
+}
+
+.pagination {
+  margin-left: 20px;
+}
+
+.page {
+  font-size: 14px;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.box[data-index="1"]:hover~.pagination .page[data-index="1"],
+.box[data-index="2"]:hover~.pagination .page[data-index="2"],
+.box[data-index="3"]:hover~.pagination .page[data-index="3"] {
+  font-size: 20px;
+  font-weight: bold;
+}

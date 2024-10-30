@@ -1,0 +1,162 @@
+.navbar {
+  height: 94px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar__logo {
+  width: 50px;
+  height: 22px;
+}
+
+@media (min-width: 1200px) {
+  .navbar__logo {
+    width: 108px;
+    height: 43px;
+  }
+
+}
+
+.icon-menu {
+  background-image: url('../../assets/images/icons/menu.svg');
+  width: 20px;
+  height: 20px;
+  display: block;
+}
+
+@media (min-width: 1200px) {
+  .icon-menu {
+    display: none;
+  }
+}
+
+.nav-action {
+  display: flex;
+  position: relative;
+  gap: 10px;
+}
+
+@media (min-width: 1200px) {
+  .nav-action {
+    gap: 35px;
+  }
+}
+
+/* .nav-links-mb {
+  display: none;
+  position: absolute;
+  width: 200px;
+    height: fit-content;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #c4c4c4;
+    font-weight: 600;
+    color: var(--color-primary);
+    font-family: var(--font-primary);
+    font-size: 18px;
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .nav-links-mb:hover {
+      background-color: #b1afaf;
+    }
+}
+@media (min-width: 1200px) {
+  .nav-links-mb {
+    display: none;
+  }
+} */
+
+.nav-links-mb {
+  display: none;
+  /* Ẩn mặc định trên mobile */
+  position: absolute;
+  top: 30px;
+  /* Khoảng cách từ menu */
+  /* left: 0; */
+  right: 0;
+  width: 160px;
+  padding: 30px;
+  background-color: #c4c4c4;
+  color: var(--color-primary);
+  font-family: var(--font-primary);
+  font-size: 18px;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+
+  .nav-links-mb:hover {
+    background-color: #b1afaf;
+  }
+}
+
+.nav-links-mb.active {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* Hiển thị khi có class 'active' */
+}
+
+@media (min-width: 1200px) {
+  .nav-links-mb.active {
+    display: none;
+    /* Hiển thị khi có class 'active' */
+  }
+}
+
+/* Chỉ hiển thị icon menu và button Sign In trên mobile */
+.nav-links-dt {
+  display: none;
+  /* Ẩn link desktop trên mobile */
+}
+
+@media (max-width: 1199px) {
+  .icon-menu {
+    display: block;
+    /* Hiển thị icon menu */
+  }
+
+  .nav-links-mb {
+    display: none;
+    /* Ẩn sidebar khi chưa click */
+  }
+
+  /* .btn-signIn {
+    display: block;
+  } */
+}
+
+@media (min-width: 1200px) {
+  .icon-menu {
+    display: none;
+    /* Ẩn icon menu trên desktop */
+  }
+
+  .nav-links-dt {
+    display: block;
+    gap: 35px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: 600;
+    font-family: var(--font-primary);
+
+    /* .nav-links-dt a:hover {
+      font-size: 20px;
+      font-weight: 400;
+      color: var(--color-quaternary);
+      border-bottom: 1px solid #ff5a3c;
+    } */
+  }
+
+
+}
+.nav-item a:hover {
+  font-weight: 400;
+  color: var(--color-quaternary);
+  border-bottom: 1px solid #ff5a3c;
+  font-family: var(--font-primary);
+}

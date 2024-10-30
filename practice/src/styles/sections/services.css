@@ -1,0 +1,23 @@
+.services {
+  gap:10px;
+}
+.services-header {
+  font-family: var(--font-primary);
+  font-size: 46px;
+        font-weight: 700;
+        color: #071440;
+}
+
+.services-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px;
+}
+
+@media (min-width: 1200px) {
+  .services-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 28px;
+  }
+}

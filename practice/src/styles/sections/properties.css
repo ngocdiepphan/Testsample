@@ -1,0 +1,101 @@
+.properties {
+  margin-top: 80px;
+}
+
+.properties-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 26px;
+}
+
+.properties-item {
+  display: flex;
+  flex-direction: row;
+  gap: 7px;
+  align-items: center;
+}
+
+.properties-content {
+  gap: 26px;
+}
+
+.properties-about {
+  display: flex;
+  flex-direction: row;
+  gap: 7px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.properties-dot {
+  width: 15px;
+  height: 11px;
+  background-color: var(--btn-color-primary);
+}
+
+.icon-about {
+  background-image: url('../../assets/images/icons/about.svg');
+  width: 18px;
+  height: 20px;
+}
+
+.properties-picture {
+  display: flex;
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
+  gap: 10px;
+  /* Khoảng cách giữa các div */
+}
+
+.properties-left {
+  flex: 2;
+  /* Chiếm 2 phần trong tổng số 3 phần */
+  background-color: var(--background-color-tertiary);
+  /* Màu nền cho phần bên trái */
+  height: 300px;
+  /* Chiều cao cố định */
+}
+
+.properties-right {
+  flex: 1;
+  /* Chiếm 1 phần trong tổng số 3 phần */
+  display: flex;
+  flex-direction: column;
+  /* Sắp xếp theo chiều dọc */
+  height: 300px;
+  /* Chiều cao cố định */
+}
+
+.properties-top {
+  flex: 1;
+  /* Chiếm 1 nửa chiều cao của properties-right */
+  background-color: var(--background-color-tertiary);
+  /* Màu nền cho phần trên */
+  margin-bottom: 10px;
+  /* Khoảng cách giữa hai phần */
+}
+
+.properties-bottom {
+  flex: 1;
+  /* Chiếm 1 nửa chiều cao của properties-right */
+  background-color: var(--background-color-tertiary);
+  /* Màu nền cho phần dưới */
+}
+
+@media (min-width: 1200px) {
+  .properties {
+    margin-top: 120px;
+  }
+
+  .properties-left {
+    height: 400px;
+    /* Chiều cao cố định */
+  }
+
+  .properties-right {
+    height: 400px;
+  }
+
+}

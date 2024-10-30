@@ -1,0 +1,73 @@
+.services-card  {
+  padding-top: 30px;
+  height: 280px;
+}
+
+.services-title {
+  font-weight: 600;
+  line-height: 1.3;
+  font-size: 24px;
+}
+
+.icon-bed {
+  background-image: url('../../assets/images/icons/bed.svg');
+  width: 50px;
+  height: 35px;
+}
+
+.icon-arrow-black {
+  background-image: url("../../assets/images/icons/arrow-black.svg");
+  width: 12px;
+  height: 10px;
+}
+
+.icon-pool {
+  background-image: url("../../assets/images/icons/pool.svg");
+  width: 51px;
+  height: 40px;
+}
+
+.icon-copywriting {
+  background-image: url("../../assets/images/icons/copywriting.svg");
+  width: 51px;
+  height: 40px;
+}
+
+.icon-home {
+  background-image: url("../../assets/images/icons/smart-home.svg");
+  width: 44px;
+  height: 46px;
+}
+.icon-library {
+  background-image: url("../../assets/images/icons/library.svg");
+  width: 44px;
+  height: 46px;
+}
+
+.icon-duity {
+  background-image: url("../../assets/images/icons/duity.svg");
+  width: 56px;
+  height: 47px;
+}
+
+.services-link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 14px;
+}
+
+.services-next {
+  font-weight: 500;
+}
+@media (min-width: 1200px) {
+  .services-card  {
+    padding-top: 57px;
+    padding-bottom: 40px;
+    height: 340px;
+    width: 100%;
+  }
+  .services-title {
+    font-size: 26px;
+  }
+}

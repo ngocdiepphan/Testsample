@@ -168,7 +168,83 @@ function reloadCSS() {
   }, 50);
 }
 module.exports = reloadCSS;
-},{"./bundle-url":"C:/Users/ADMIN/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"styles/index.css":[function(require,module,exports) {
+},{"./bundle-url":"C:/Users/ADMIN/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"styles/layouts/containers.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"C:/Users/ADMIN/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"styles/layouts/header.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"./..\\..\\assets\\images\\icons\\envelope.svg":[["envelope.645ee32d.svg","assets/images/icons/envelope.svg"],"assets/images/icons/envelope.svg"],"./..\\..\\assets\\images\\icons\\location.svg":[["location.1f079381.svg","assets/images/icons/location.svg"],"assets/images/icons/location.svg"],"./..\\..\\assets\\images\\icons\\icon-facebook.svg":[["icon-facebook.1c2dc6d6.svg","assets/images/icons/icon-facebook.svg"],"assets/images/icons/icon-facebook.svg"],"./..\\..\\assets\\images\\icons\\icon-twitter.svg":[["icon-twitter.65d911e4.svg","assets/images/icons/icon-twitter.svg"],"assets/images/icons/icon-twitter.svg"],"./..\\..\\assets\\images\\icons\\icon-instagram.svg":[["icon-instagram.dbadbd96.svg","assets/images/icons/icon-instagram.svg"],"assets/images/icons/icon-instagram.svg"],"./..\\..\\assets\\images\\icons\\icon-youtube.svg":[["icon-youtube.27e51cb5.svg","assets/images/icons/icon-youtube.svg"],"assets/images/icons/icon-youtube.svg"],"./..\\..\\assets\\images\\icons\\icon-pinterset.svg":[["icon-pinterset.f7077cdb.svg","assets/images/icons/icon-pinterset.svg"],"assets/images/icons/icon-pinterset.svg"],"_css_loader":"C:/Users/ADMIN/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"styles/layouts/footer.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"./..\\..\\assets\\images\\icons\\arrow-down.svg":[["arrow-down.e5467e58.svg","assets/images/icons/arrow-down.svg"],"assets/images/icons/arrow-down.svg"],"./..\\..\\assets\\images\\icons\\mail-footer.svg":[["mail-footer.cec12424.svg","assets/images/icons/mail-footer.svg"],"assets/images/icons/mail-footer.svg"],"_css_loader":"C:/Users/ADMIN/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"styles/layouts/index.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"./containers.css":"styles/layouts/containers.css","./header.css":"styles/layouts/header.css","./footer.css":"styles/layouts/footer.css","_css_loader":"C:/Users/ADMIN/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"styles/components/icon.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"C:/Users/ADMIN/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"styles/components/button.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"C:/Users/ADMIN/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"styles/components/revenue.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"C:/Users/ADMIN/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"styles/components/box.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"C:/Users/ADMIN/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"styles/components/card-resources.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"./..\\..\\assets\\images\\icons\\buyer.svg":[["buyer.691454d6.svg","assets/images/icons/buyer.svg"],"assets/images/icons/buyer.svg"],"./..\\..\\assets\\images\\icons\\renter.svg":[["renter.9cfe31b5.svg","assets/images/icons/renter.svg"],"assets/images/icons/renter.svg"],"./..\\..\\assets\\images\\icons\\seller.svg":[["seller.f7cfb648.svg","assets/images/icons/seller.svg"],"assets/images/icons/seller.svg"],"_css_loader":"C:/Users/ADMIN/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"styles/components/card-space.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"./..\\..\\assets\\images\\icons\\clarity_home-line.svg":[["clarity_home-line.71b8de16.svg","assets/images/icons/clarity_home-line.svg"],"assets/images/icons/clarity_home-line.svg"],"./..\\..\\assets\\images\\icons\\clarity_user-outline-alerted.svg":[["clarity_user-outline-alerted.335c1320.svg","assets/images/icons/clarity_user-outline-alerted.svg"],"assets/images/icons/clarity_user-outline-alerted.svg"],"./..\\..\\assets\\images\\icons\\fluent_globe-location.svg":[["fluent_globe-location.c287a0ae.svg","assets/images/icons/fluent_globe-location.svg"],"assets/images/icons/fluent_globe-location.svg"],"_css_loader":"C:/Users/ADMIN/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"styles/components/card-services.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"./..\\..\\assets\\images\\icons\\bed.svg":[["bed.5eba3c9b.svg","assets/images/icons/bed.svg"],"assets/images/icons/bed.svg"],"./..\\..\\assets\\images\\icons\\arrow-black.svg":[["arrow-black.fb528db5.svg","assets/images/icons/arrow-black.svg"],"assets/images/icons/arrow-black.svg"],"./..\\..\\assets\\images\\icons\\pool.svg":[["pool.1bef8acc.svg","assets/images/icons/pool.svg"],"assets/images/icons/pool.svg"],"./..\\..\\assets\\images\\icons\\copywriting.svg":[["copywriting.3017b29c.svg","assets/images/icons/copywriting.svg"],"assets/images/icons/copywriting.svg"],"./..\\..\\assets\\images\\icons\\smart-home.svg":[["smart-home.72eb80b9.svg","assets/images/icons/smart-home.svg"],"assets/images/icons/smart-home.svg"],"./..\\..\\assets\\images\\icons\\library.svg":[["library.61a56745.svg","assets/images/icons/library.svg"],"assets/images/icons/library.svg"],"./..\\..\\assets\\images\\icons\\duity.svg":[["duity.3c4fd95b.svg","assets/images/icons/duity.svg"],"assets/images/icons/duity.svg"],"_css_loader":"C:/Users/ADMIN/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"styles/components/index.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"./icon.css":"styles/components/icon.css","./button.css":"styles/components/button.css","./revenue.css":"styles/components/revenue.css","./box.css":"styles/components/box.css","./card-resources.css":"styles/components/card-resources.css","./card-space.css":"styles/components/card-space.css","./card-services.css":"styles/components/card-services.css","_css_loader":"C:/Users/ADMIN/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"styles/sections/navbar.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"./..\\..\\assets\\images\\icons\\menu.svg":[["menu.067fce70.svg","assets/images/icons/menu.svg"],"assets/images/icons/menu.svg"],"_css_loader":"C:/Users/ADMIN/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"styles/sections/banner.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"./..\\..\\assets\\images\\icons\\icon-play.svg":[["icon-play.c72e5821.svg","assets/images/icons/icon-play.svg"],"assets/images/icons/icon-play.svg"],"./..\\..\\assets\\images\\icons\\icon-arrow-right.svg":[["icon-arrow-right.d3dc4ae5.svg","assets/images/icons/icon-arrow-right.svg"],"assets/images/icons/icon-arrow-right.svg"],"_css_loader":"C:/Users/ADMIN/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"styles/sections/resources.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"C:/Users/ADMIN/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"styles/sections/space.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"C:/Users/ADMIN/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"styles/sections/properties.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"./..\\..\\assets\\images\\icons\\about.svg":[["about.5cf007b8.svg","assets/images/icons/about.svg"],"assets/images/icons/about.svg"],"_css_loader":"C:/Users/ADMIN/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"styles/sections/services.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"C:/Users/ADMIN/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"styles/sections/index.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"./navbar.css":"styles/sections/navbar.css","./banner.css":"styles/sections/banner.css","./resources.css":"styles/sections/resources.css","./space.css":"styles/sections/space.css","./properties.css":"styles/sections/properties.css","./services.css":"styles/sections/services.css","_css_loader":"C:/Users/ADMIN/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"styles/index.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
@@ -188,19 +264,7 @@ module.hot.accept(reloadCSS);
 var reloadCSS = require('_css_loader');
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./..\\..\\assets\\fonts\\Poppins-Regular.ttf":[["Poppins-Regular.3d15a542.ttf","assets/fonts/Poppins-Regular.ttf"],"assets/fonts/Poppins-Regular.ttf"],"./..\\..\\assets\\fonts\\Nunito-VariableFont_wght.ttf":[["Nunito-VariableFont_wght.87bf395b.ttf","assets/fonts/Nunito-VariableFont_wght.ttf"],"assets/fonts/Nunito-VariableFont_wght.ttf"],"_css_loader":"C:/Users/ADMIN/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"styles/layouts/containers.css":[function(require,module,exports) {
-var reloadCSS = require('_css_loader');
-module.hot.dispose(reloadCSS);
-module.hot.accept(reloadCSS);
-},{"_css_loader":"C:/Users/ADMIN/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"styles/layouts/header.css":[function(require,module,exports) {
-var reloadCSS = require('_css_loader');
-module.hot.dispose(reloadCSS);
-module.hot.accept(reloadCSS);
-},{"./..\\..\\assets\\images\\icons\\envelope.svg":[["envelope.645ee32d.svg","assets/images/icons/envelope.svg"],"assets/images/icons/envelope.svg"],"./..\\..\\assets\\images\\icons\\location.svg":[["location.1f079381.svg","assets/images/icons/location.svg"],"assets/images/icons/location.svg"],"./..\\..\\assets\\images\\icons\\icon-facebook.svg":[["icon-facebook.1c2dc6d6.svg","assets/images/icons/icon-facebook.svg"],"assets/images/icons/icon-facebook.svg"],"./..\\..\\assets\\images\\icons\\icon-twitter.svg":[["icon-twitter.65d911e4.svg","assets/images/icons/icon-twitter.svg"],"assets/images/icons/icon-twitter.svg"],"./..\\..\\assets\\images\\icons\\icon-instagram.svg":[["icon-instagram.dbadbd96.svg","assets/images/icons/icon-instagram.svg"],"assets/images/icons/icon-instagram.svg"],"./..\\..\\assets\\images\\icons\\icon-youtube.svg":[["icon-youtube.27e51cb5.svg","assets/images/icons/icon-youtube.svg"],"assets/images/icons/icon-youtube.svg"],"./..\\..\\assets\\images\\icons\\icon-pinterset.svg":[["icon-pinterset.f7077cdb.svg","assets/images/icons/icon-pinterset.svg"],"assets/images/icons/icon-pinterset.svg"],"_css_loader":"C:/Users/ADMIN/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"styles/components/icon.css":[function(require,module,exports) {
-var reloadCSS = require('_css_loader');
-module.hot.dispose(reloadCSS);
-module.hot.accept(reloadCSS);
-},{"_css_loader":"C:/Users/ADMIN/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"C:/Users/ADMIN/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"./..\\..\\assets\\fonts\\Poppins-Regular.ttf":[["Poppins-Regular.3d15a542.ttf","assets/fonts/Poppins-Regular.ttf"],"assets/fonts/Poppins-Regular.ttf"],"./..\\..\\assets\\fonts\\Nunito-VariableFont_wght.ttf":[["Nunito-VariableFont_wght.87bf395b.ttf","assets/fonts/Nunito-VariableFont_wght.ttf"],"assets/fonts/Nunito-VariableFont_wght.ttf"],"_css_loader":"C:/Users/ADMIN/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"C:/Users/ADMIN/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -225,7 +289,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50270" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "60615" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];

@@ -1,0 +1,78 @@
+.btn {
+  border: none;
+  background-color: var(--btn-color-primary);
+}
+
+.btn:hover {
+  background-color: #fd3411;
+}
+
+.btn-signIn {
+
+  width: 50px;
+  height: 24px;
+  color: var(--color-tertiary);
+  border-radius: 6px;
+  font-family: var(--font-primary);
+}
+
+@media (min-width: 1200px) {
+  .btn-signIn {
+    font-size: 18px;
+    width: 81px;
+    height: 33px;
+  }
+}
+
+/* Ẩn nút "Sign In" trên desktop */
+@media (min-width: 1200px) {
+  .btn-signIn-mb {
+    display: none;
+  }
+}
+
+/* Ẩn nút "Sign In" trên mobile */
+@media (min-width: 1200px) {
+  .btn-signIn-dt {
+    display: none;
+  }
+
+  /* .btn-start {
+    width: 100px;
+    height: 58px;
+  } */
+
+  .btn-play {
+    width: 190px;
+    height: 75px;
+  }
+}
+
+.btn-start {
+  width: 200px;
+  height: 58px;
+  color: var(--color-tertiary);
+  font-family: var(--font-secondary);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+padding-left: 30px;
+padding-right: 30px;
+gap: 10px;
+border-radius: 10px;
+}
+
+
+.btn-play {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+  color: var(--color-tertiary);
+  font-size: 14px;
+  width: 150px;
+    height: 60px;
+    border-top-left-radius: 5px;
+}
+

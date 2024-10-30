@@ -1,0 +1,70 @@
+.resources-card {
+  width: 100%;
+  height: fit-content;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding-bottom: 20px;
+}
+
+.resources-card:hover {
+  background-color: var(--btn-color-primary);
+  color: var(--color-tertiary);
+}
+
+.icon-buyer {
+  background-image: url('../../assets/images/icons/buyer.svg');
+  width: 90px;
+  height: 120px;
+  background-position: top;
+}
+
+.icon-renter {
+  background-image: url('../../assets/images/icons/renter.svg');
+}
+
+.icon-seller {
+  background-image: url('../../assets/images/icons/seller.svg');
+}
+
+.resources-title {
+  font-weight: 600;
+  font-family: var(--font-secondary);
+  font-size: 24px;
+}
+
+.resources-description {
+  font-family: var(--font-secondary);
+  color: #899aa2;
+  line-height: 1.77;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.resources-description:hover {
+  color: var(--color-tertiary);
+}
+
+@media (min-width: 1200px) {
+  .resources-card {
+    width: 280px;
+    height: 320px;
+    padding-top: 10px;
+  }
+
+  .resources-title {
+    font-weight: 600;
+    font-size: 28px;
+    font-weight: 700;
+    text-transform: capitalize;
+  }
+
+  .resources-description {
+    font-size: 18px;
+  }
+}
