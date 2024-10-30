@@ -1,11 +1,13 @@
 .services {
-  gap:10px;
+  gap: 10px;
+  padding-bottom: 50px;
 }
+
 .services-header {
   font-family: var(--font-primary);
   font-size: 46px;
-        font-weight: 700;
-        color: #071440;
+  font-weight: 700;
+  color: #071440;
 }
 
 .services-list {
@@ -15,6 +17,10 @@
 }
 
 @media (min-width: 1200px) {
+  .services {
+    padding-bottom: 91px;
+  }
+
   .services-list {
     display: grid;
     grid-template-columns: repeat(3, 1fr);

@@ -212,11 +212,19 @@ module.hot.accept(reloadCSS);
 var reloadCSS = require('_css_loader');
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./..\\..\\assets\\images\\icons\\bed.svg":[["bed.5eba3c9b.svg","assets/images/icons/bed.svg"],"assets/images/icons/bed.svg"],"./..\\..\\assets\\images\\icons\\arrow-black.svg":[["arrow-black.fb528db5.svg","assets/images/icons/arrow-black.svg"],"assets/images/icons/arrow-black.svg"],"./..\\..\\assets\\images\\icons\\pool.svg":[["pool.1bef8acc.svg","assets/images/icons/pool.svg"],"assets/images/icons/pool.svg"],"./..\\..\\assets\\images\\icons\\copywriting.svg":[["copywriting.3017b29c.svg","assets/images/icons/copywriting.svg"],"assets/images/icons/copywriting.svg"],"./..\\..\\assets\\images\\icons\\smart-home.svg":[["smart-home.72eb80b9.svg","assets/images/icons/smart-home.svg"],"assets/images/icons/smart-home.svg"],"./..\\..\\assets\\images\\icons\\library.svg":[["library.61a56745.svg","assets/images/icons/library.svg"],"assets/images/icons/library.svg"],"./..\\..\\assets\\images\\icons\\duity.svg":[["duity.3c4fd95b.svg","assets/images/icons/duity.svg"],"assets/images/icons/duity.svg"],"_css_loader":"C:/Users/ADMIN/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"styles/components/index.css":[function(require,module,exports) {
+},{"./..\\..\\assets\\images\\icons\\bed.svg":[["bed.5eba3c9b.svg","assets/images/icons/bed.svg"],"assets/images/icons/bed.svg"],"./..\\..\\assets\\images\\icons\\arrow-black.svg":[["arrow-black.fb528db5.svg","assets/images/icons/arrow-black.svg"],"assets/images/icons/arrow-black.svg"],"./..\\..\\assets\\images\\icons\\pool.svg":[["pool.1bef8acc.svg","assets/images/icons/pool.svg"],"assets/images/icons/pool.svg"],"./..\\..\\assets\\images\\icons\\copywriting.svg":[["copywriting.3017b29c.svg","assets/images/icons/copywriting.svg"],"assets/images/icons/copywriting.svg"],"./..\\..\\assets\\images\\icons\\smart-home.svg":[["smart-home.72eb80b9.svg","assets/images/icons/smart-home.svg"],"assets/images/icons/smart-home.svg"],"./..\\..\\assets\\images\\icons\\library.svg":[["library.61a56745.svg","assets/images/icons/library.svg"],"assets/images/icons/library.svg"],"./..\\..\\assets\\images\\icons\\duity.svg":[["duity.3c4fd95b.svg","assets/images/icons/duity.svg"],"assets/images/icons/duity.svg"],"_css_loader":"C:/Users/ADMIN/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"styles/components/card-feature.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./icon.css":"styles/components/icon.css","./button.css":"styles/components/button.css","./revenue.css":"styles/components/revenue.css","./box.css":"styles/components/box.css","./card-resources.css":"styles/components/card-resources.css","./card-space.css":"styles/components/card-space.css","./card-services.css":"styles/components/card-services.css","_css_loader":"C:/Users/ADMIN/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"styles/sections/navbar.css":[function(require,module,exports) {
+},{"_css_loader":"C:/Users/ADMIN/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"styles/components/feature-detail.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"./..\\..\\assets\\images\\icons\\map.svg":[["map.ed2a6f4a.svg","assets/images/icons/map.svg"],"assets/images/icons/map.svg"],"./..\\..\\assets\\images\\icons\\btn-arrow.svg":[["btn-arrow.cde080b5.svg","assets/images/icons/btn-arrow.svg"],"assets/images/icons/btn-arrow.svg"],"./..\\..\\assets\\images\\icons\\btn-arrow-hover.svg":[["btn-arrow-hover.1ea2f019.svg","assets/images/icons/btn-arrow-hover.svg"],"assets/images/icons/btn-arrow-hover.svg"],"_css_loader":"C:/Users/ADMIN/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"styles/components/index.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"./icon.css":"styles/components/icon.css","./button.css":"styles/components/button.css","./revenue.css":"styles/components/revenue.css","./box.css":"styles/components/box.css","./card-resources.css":"styles/components/card-resources.css","./card-space.css":"styles/components/card-space.css","./card-services.css":"styles/components/card-services.css","./card-feature.css":"styles/components/card-feature.css","./feature-detail.css":"styles/components/feature-detail.css","_css_loader":"C:/Users/ADMIN/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"styles/sections/navbar.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
@@ -240,11 +248,15 @@ module.hot.accept(reloadCSS);
 var reloadCSS = require('_css_loader');
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
+},{"_css_loader":"C:/Users/ADMIN/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"styles/sections/feature.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
 },{"_css_loader":"C:/Users/ADMIN/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"styles/sections/index.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./navbar.css":"styles/sections/navbar.css","./banner.css":"styles/sections/banner.css","./resources.css":"styles/sections/resources.css","./space.css":"styles/sections/space.css","./properties.css":"styles/sections/properties.css","./services.css":"styles/sections/services.css","_css_loader":"C:/Users/ADMIN/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"styles/index.css":[function(require,module,exports) {
+},{"./navbar.css":"styles/sections/navbar.css","./banner.css":"styles/sections/banner.css","./resources.css":"styles/sections/resources.css","./space.css":"styles/sections/space.css","./properties.css":"styles/sections/properties.css","./services.css":"styles/sections/services.css","./feature.css":"styles/sections/feature.css","_css_loader":"C:/Users/ADMIN/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"styles/index.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
@@ -289,7 +301,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "60615" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "49685" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];
