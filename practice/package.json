@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "This is Diep Phan practice test",
   "scripts": {
-    "start": "parcel src/index.html",
-    "build": "parcel build src/index.html"
+    "start": "rm -rf .parcel-cache && parcel src/index.html",
+    "build": "rm -rf .parcel-cache && parcel build src/index.html"
   },
   "keywords": [],
   "author": "DiepPhan",
