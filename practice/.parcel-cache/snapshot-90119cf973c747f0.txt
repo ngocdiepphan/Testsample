@@ -37,7 +37,7 @@
 63D:\Testsample\practice\node_modules\node-addon-api\node_api.gyp133748561269721100 0
 59D:\Testsample\practice\node_modules\@swc\helpers\_\_dispose133748561274741269 1
 58D:\Testsample\practice\src\styles\components\subscribe.css133748524172772684 0
-34D:\Testsample\practice\vercel.json133748585750390030 0
+34D:\Testsample\practice\vercel.json133748587574726894 0
 40D:\Testsample\practice\node_modules\@swc133748571354923072 1
 32D:\Testsample\practice\README.md133748552775752385 0
 55D:\Testsample\practice\node_modules\msgpackr\index.d.ts133748561273601266 0
