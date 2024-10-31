@@ -44,7 +44,7 @@
 49D:\Testsample\practice\src\styles\bases\index.css133746891855296771 0
 52D:\Testsample\practice\src\styles\layouts\footer.css133748524652458961 0
 54D:\Testsample\practice\src\styles\components\index.css133748522304893428 0
-55D:\Testsample\practice\src\styles\components\button.css133748520391056419 0
+55D:\Testsample\practice\src\styles\components\button.css133748650326154338 0
 52D:\Testsample\practice\src\styles\layouts\header.css133748525465842434 0
 51D:\Testsample\practice\src\styles\layouts\index.css133748525553535718 0
 54D:\Testsample\practice\src\styles\components\badge.css133748519277974958 0
@@ -52,7 +52,7 @@
 57D:\Testsample\practice\src\assets\images\main\estates.png133748420568962127 0
 49D:\Testsample\practice\src\styles\bases\reset.css133748517946098809 0
 58D:\Testsample\practice\src\styles\components\card-blog.css133748520673194859 0
-63D:\Testsample\practice\src\styles\components\card-resources.css133748521053537981 0
+63D:\Testsample\practice\src\styles\components\card-resources.css133748648940079904 0
 55D:\Testsample\practice\src\assets\images\icons\user.svg133748393021927392 0
 48D:\Testsample\practice\src\assets\images\banners133747348128109037 1
 62D:\Testsample\practice\src\styles\components\card-services.css133748540297748045 0

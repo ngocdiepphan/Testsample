@@ -5,6 +5,7 @@
   width: 400px;
   height: fit-content;
   padding: 40px;
+  cursor: pointer;
 }
 
 .form-title {

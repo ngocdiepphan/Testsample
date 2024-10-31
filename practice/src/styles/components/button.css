@@ -1,6 +1,7 @@
 .btn {
   border: none;
   background-color: var(--btn-color-primary);
+  cursor: pointer;
 }
 
 .btn:hover {

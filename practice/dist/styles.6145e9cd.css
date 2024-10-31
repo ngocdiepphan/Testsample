@@ -526,6 +526,7 @@ table {
 .btn {
   border: none;
   background-color: var(--btn-color-primary);
+  cursor: pointer;
 }
 
 .btn:hover {
@@ -806,6 +807,7 @@ table {
   align-items: center;
   gap: 20px;
   padding-bottom: 20px;
+  cursor: pointer;
 }
 
 .resources-card:hover {
@@ -1094,6 +1096,7 @@ table {
   align-items: center;
   justify-content: center;
   gap: 28px;
+  cursor: pointer;
 }
 
 .card-project-address {
@@ -1132,6 +1135,7 @@ table {
   max-width: 600px;
   margin-top: 67px;
   height: 70px;
+  cursor: pointer;
 }
 
 .project-box {
@@ -1179,6 +1183,7 @@ table {
   width: 400px;
   height: fit-content;
   padding: 40px;
+  cursor: pointer;
 }
 
 .form-title {
@@ -1232,6 +1237,7 @@ table {
   display: flex;
   flex-direction: column;
   margin-top: 60px;
+  cursor: pointer;
 }
 
 .blog-image {
@@ -1322,6 +1328,7 @@ table {
   gap: 10px;
   left: 90px;
   top: 400px;
+  cursor: pointer;
 }
 
 .badge-text {
@@ -1865,6 +1872,7 @@ a {
   display: flex;
   align-items: flex-end;
   background-color: var(--background-color-tertiary);
+  cursor: pointer;
 }
 
 @media (min-width: 1200px) {
