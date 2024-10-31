@@ -61,13 +61,14 @@
 }
 
 .btn-explore {
-  width: 172px;
-  height: 60px;
+  width: 120px;
+  height: 40px;
   font-weight: 600;
   font-family: var(--font-secondary);
   color: var(--color-quaternary);
   background-color: var(--background-color-primary);
   border: 1px solid var(--btn-color-primary);
+  margin-top: 40px;
 }
 
 .btn-explore:hover {
@@ -76,6 +77,39 @@
   background-color: var(--color-quaternary);
   border: 2px solid var(--btn-color-primary);
 }
+
+.btn-see {
+  width: 120px;
+  height: 40px;
+  border: #fff;
+  background-color: var(--color-tertiary);
+  color: var(--btn-color-primary);
+  display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+        justify-content: center;
+}
+
+.btn-see:hover {
+  border: 2px solid var(--btn-color-primary);
+  color: var(--color-tertiary);
+  font-weight: 600;
+  background-color: var(--btn-color-primary);
+}
+
+.btn-subscribe {
+  width: 120px;
+  height: 40px;
+  border-radius: 10px;
+  color: var(--color-tertiary);
+  font-size: 14px;
+}
+
+.btn-subscribe:hover {
+  font-weight: 600;
+}
+
 @media (min-width: 1200px) {
   .btn-signIn-mb {
     display: none;
@@ -88,5 +122,24 @@
   .btn-play {
     width: 190px;
     height: 75px;
+  }
+
+  .btn-explore {
+    width: 172px;
+    height: 60px;
+    margin-top: 60px;
+  }
+
+  .btn-see {
+    width: 140px;
+    height: 50px;
+    border-radius: 10px;
+  }
+
+  .btn-subscribe {
+    width: 140px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 16px;
   }
 }

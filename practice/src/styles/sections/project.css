@@ -1,0 +1,68 @@
+.project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project-list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.project-subscribe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 600px;
+  margin-top: 67px;
+  height: 70px;
+}
+
+.project-box {
+  display: flex;
+  align-items: center;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  padding: 5px 10px;
+  width: 100%;
+}
+
+.project-subscribe-input {
+  border: none;
+  outline: none;
+  flex: 1;
+  font-size: 14px;
+  padding-left: 20px;
+  background-color: #f5f5f5;
+}
+
+.project-subscribe-input::placeholder {
+  color: #8c8c8c;
+}
+
+.icon-subscribe {
+  background-image: url('../../assets/images/icons/email-box.svg');
+  width: 24px;
+  height: 24px;
+}
+
+@media (min-width: 1200px) {
+  .project-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+  }
+
+  .project-subscribe-input {
+    font-size: 14px;
+  }
+
+  .project-subscribe {
+    height: 80px;
+  }
+}

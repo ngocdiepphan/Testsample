@@ -220,11 +220,15 @@ module.hot.accept(reloadCSS);
 var reloadCSS = require('_css_loader');
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./..\\..\\assets\\images\\icons\\map.svg":[["map.ed2a6f4a.svg","assets/images/icons/map.svg"],"assets/images/icons/map.svg"],"./..\\..\\assets\\images\\icons\\btn-arrow.svg":[["btn-arrow.cde080b5.svg","assets/images/icons/btn-arrow.svg"],"assets/images/icons/btn-arrow.svg"],"./..\\..\\assets\\images\\icons\\btn-arrow-hover.svg":[["btn-arrow-hover.1ea2f019.svg","assets/images/icons/btn-arrow-hover.svg"],"assets/images/icons/btn-arrow-hover.svg"],"_css_loader":"C:/Users/ADMIN/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"styles/components/index.css":[function(require,module,exports) {
+},{"./..\\..\\assets\\images\\icons\\map.svg":[["map.ed2a6f4a.svg","assets/images/icons/map.svg"],"assets/images/icons/map.svg"],"./..\\..\\assets\\images\\icons\\btn-arrow.svg":[["btn-arrow.cde080b5.svg","assets/images/icons/btn-arrow.svg"],"assets/images/icons/btn-arrow.svg"],"./..\\..\\assets\\images\\icons\\btn-arrow-hover.svg":[["btn-arrow-hover.1ea2f019.svg","assets/images/icons/btn-arrow-hover.svg"],"assets/images/icons/btn-arrow-hover.svg"],"_css_loader":"C:/Users/ADMIN/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"styles/components/card-project.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./icon.css":"styles/components/icon.css","./button.css":"styles/components/button.css","./revenue.css":"styles/components/revenue.css","./box.css":"styles/components/box.css","./card-resources.css":"styles/components/card-resources.css","./card-space.css":"styles/components/card-space.css","./card-services.css":"styles/components/card-services.css","./card-feature.css":"styles/components/card-feature.css","./feature-detail.css":"styles/components/feature-detail.css","_css_loader":"C:/Users/ADMIN/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"styles/sections/navbar.css":[function(require,module,exports) {
+},{"./..\\..\\assets\\images\\icons\\arrow-orange.svg":[["arrow-orange.26aecdbd.svg","assets/images/icons/arrow-orange.svg"],"assets/images/icons/arrow-orange.svg"],"./..\\..\\assets\\images\\icons\\icon-arrow-right.svg":[["icon-arrow-right.d3dc4ae5.svg","assets/images/icons/icon-arrow-right.svg"],"assets/images/icons/icon-arrow-right.svg"],"_css_loader":"C:/Users/ADMIN/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"styles/components/index.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"./icon.css":"styles/components/icon.css","./button.css":"styles/components/button.css","./revenue.css":"styles/components/revenue.css","./box.css":"styles/components/box.css","./card-resources.css":"styles/components/card-resources.css","./card-space.css":"styles/components/card-space.css","./card-services.css":"styles/components/card-services.css","./card-feature.css":"styles/components/card-feature.css","./feature-detail.css":"styles/components/feature-detail.css","./card-project.css":"styles/components/card-project.css","./subscribe.css":"styles/components/subscribe.css","_css_loader":"C:/Users/ADMIN/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"styles/sections/navbar.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
@@ -252,11 +256,19 @@ module.hot.accept(reloadCSS);
 var reloadCSS = require('_css_loader');
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"_css_loader":"C:/Users/ADMIN/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"styles/sections/index.css":[function(require,module,exports) {
+},{"_css_loader":"C:/Users/ADMIN/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"styles/sections/feedback.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./navbar.css":"styles/sections/navbar.css","./banner.css":"styles/sections/banner.css","./resources.css":"styles/sections/resources.css","./space.css":"styles/sections/space.css","./properties.css":"styles/sections/properties.css","./services.css":"styles/sections/services.css","./feature.css":"styles/sections/feature.css","_css_loader":"C:/Users/ADMIN/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"styles/index.css":[function(require,module,exports) {
+},{"./..\\..\\assets\\images\\icons\\icon-quotation.svg":[["icon-quotation.47f6ebb9.svg","assets/images/icons/icon-quotation.svg"],"assets/images/icons/icon-quotation.svg"],"./..\\..\\assets\\images\\icons\\rating-star.svg":[["rating-star.ac0c67e3.svg","assets/images/icons/rating-star.svg"],"assets/images/icons/rating-star.svg"],"./..\\..\\assets\\images\\icons\\next-left.svg":[["next-left.c6431a66.svg","assets/images/icons/next-left.svg"],"assets/images/icons/next-left.svg"],"./..\\..\\assets\\images\\icons\\next-right.svg":[["next-right.5b286f09.svg","assets/images/icons/next-right.svg"],"assets/images/icons/next-right.svg"],"_css_loader":"C:/Users/ADMIN/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"styles/sections/project.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"./..\\..\\assets\\images\\icons\\email-box.svg":[["email-box.f1454b56.svg","assets/images/icons/email-box.svg"],"assets/images/icons/email-box.svg"],"_css_loader":"C:/Users/ADMIN/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"styles/sections/index.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"./navbar.css":"styles/sections/navbar.css","./banner.css":"styles/sections/banner.css","./resources.css":"styles/sections/resources.css","./space.css":"styles/sections/space.css","./properties.css":"styles/sections/properties.css","./services.css":"styles/sections/services.css","./feature.css":"styles/sections/feature.css","./feedback.css":"styles/sections/feedback.css","./project.css":"styles/sections/project.css","_css_loader":"C:/Users/ADMIN/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"styles/index.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
@@ -301,7 +313,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "49685" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "61331" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];
