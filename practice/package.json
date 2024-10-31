@@ -10,5 +10,8 @@
   },
   "keywords": [],
   "author": "DiepPhan",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "1.12.5"
+  }
 }
