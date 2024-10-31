@@ -1,0 +1,163 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.contact-header {
+  color: var(--color-quaternary);
+  font-family: var(--font-secondary);
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.contact-description {
+  font-size: 18px;
+  font-family: var(--font-secondary);
+  color: #8c8c8c;
+}
+
+.contact-content {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  max-width: 465px;
+}
+
+.contact-introduce {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: center;
+}
+
+.contact-title {
+  font-family: var(--font-secondary);
+  font-weight: 600;
+  color: var(--color-primary-transparency);
+}
+
+.icon-check {
+  background-image: url('../../assets/images/icons/check.svg');
+  width: 12px;
+  height: 30px;
+}
+
+.contact-image {
+  position: relative;
+  width: 100%;
+  height: 350px;
+}
+
+.large-rectangle-above {
+  width: 170px;
+  height: 140px;
+  background-color: var(--background-color-tertiary);
+  position: absolute;
+  border-radius: 10px;
+}
+
+.large-rectangle-below {
+  width: 250px;
+  height: 170px;
+  background-color: var(--background-color-tertiary);
+  position: absolute;
+  border-radius: 10px;
+}
+
+.large-rectangle-left {
+  top: 40px;
+  left: 0;
+}
+
+.large-rectangle-right {
+  top: 100px;
+  left: 120px;
+}
+
+.small-square-below {
+  width: 73px;
+  height: 70px;
+  position: absolute;
+  border-radius: 10px;
+}
+
+.small-square-above {
+  width: 34px;
+  height: 33px;
+}
+
+.small-square-red {
+  background-color: #ff5733;
+  top: 10px;
+  left: 200px;
+}
+
+.small-square-black {
+  background-color: #333;
+  top: 0px;
+  left: 250px;
+}
+
+@media (min-width: 1200px) {
+  .contact {
+    margin-bottom: 132px;
+  }
+
+  .contact-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+
+  .contact-header {
+    font-size: 24px;
+  }
+
+  .contact-image {
+    position: relative;
+    width: 100%;
+    height: 350px;
+  }
+
+  .large-rectangle-above {
+    width: 220px;
+    height: 180px;
+    background-color: var(--background-color-tertiary);
+    position: absolute;
+    border-radius: 10px;
+  }
+
+  .large-rectangle-below {
+    width: 340px;
+    height: 200px;
+    background-color: var(--background-color-tertiary);
+    position: absolute;
+    border-radius: 10px;
+  }
+
+  .small-square-below {
+    width: 73px;
+    height: 70px;
+    position: absolute;
+    border-radius: 10px;
+  }
+
+  .small-square-above {
+    width: 34px;
+    height: 33px;
+  }
+
+  .small-square-red {
+    background-color: #ff5733;
+    top: 10px;
+    left: 270px;
+  }
+
+  .small-square-black {
+    background-color: #333;
+    top: 0px;
+    left: 320px;
+  }
+}

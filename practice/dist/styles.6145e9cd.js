@@ -168,7 +168,15 @@ function reloadCSS() {
   }, 50);
 }
 module.exports = reloadCSS;
-},{"./bundle-url":"C:/Users/ADMIN/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"styles/layouts/containers.css":[function(require,module,exports) {
+},{"./bundle-url":"C:/Users/ADMIN/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"styles/utilities/variables.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"C:/Users/ADMIN/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"styles/utilities/index.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"./variables.css":"styles/utilities/variables.css","_css_loader":"C:/Users/ADMIN/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"styles/layouts/containers.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
@@ -224,11 +232,31 @@ module.hot.accept(reloadCSS);
 var reloadCSS = require('_css_loader');
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./..\\..\\assets\\images\\icons\\arrow-orange.svg":[["arrow-orange.26aecdbd.svg","assets/images/icons/arrow-orange.svg"],"assets/images/icons/arrow-orange.svg"],"./..\\..\\assets\\images\\icons\\icon-arrow-right.svg":[["icon-arrow-right.d3dc4ae5.svg","assets/images/icons/icon-arrow-right.svg"],"assets/images/icons/icon-arrow-right.svg"],"_css_loader":"C:/Users/ADMIN/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"styles/components/index.css":[function(require,module,exports) {
+},{"./..\\..\\assets\\images\\icons\\arrow-orange.svg":[["arrow-orange.26aecdbd.svg","assets/images/icons/arrow-orange.svg"],"assets/images/icons/arrow-orange.svg"],"./..\\..\\assets\\images\\icons\\icon-arrow-right.svg":[["icon-arrow-right.d3dc4ae5.svg","assets/images/icons/icon-arrow-right.svg"],"assets/images/icons/icon-arrow-right.svg"],"_css_loader":"C:/Users/ADMIN/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"styles/components/subscribe.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./icon.css":"styles/components/icon.css","./button.css":"styles/components/button.css","./revenue.css":"styles/components/revenue.css","./box.css":"styles/components/box.css","./card-resources.css":"styles/components/card-resources.css","./card-space.css":"styles/components/card-space.css","./card-services.css":"styles/components/card-services.css","./card-feature.css":"styles/components/card-feature.css","./feature-detail.css":"styles/components/feature-detail.css","./card-project.css":"styles/components/card-project.css","./subscribe.css":"styles/components/subscribe.css","_css_loader":"C:/Users/ADMIN/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"styles/sections/navbar.css":[function(require,module,exports) {
+},{"./..\\..\\assets\\images\\icons\\email-box.svg":[["email-box.f1454b56.svg","assets/images/icons/email-box.svg"],"assets/images/icons/email-box.svg"],"_css_loader":"C:/Users/ADMIN/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"styles/components/form-contact.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"C:/Users/ADMIN/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"styles/components/card-blog.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"./..\\..\\assets\\images\\icons\\bookmark.svg":[["bookmark.7c798473.svg","assets/images/icons/bookmark.svg"],"assets/images/icons/bookmark.svg"],"./..\\..\\assets\\images\\icons\\calendar.svg":[["calendar.5766a2b8.svg","assets/images/icons/calendar.svg"],"assets/images/icons/calendar.svg"],"./..\\..\\assets\\images\\icons\\user.svg":[["user.4b1997bc.svg","assets/images/icons/user.svg"],"assets/images/icons/user.svg"],"_css_loader":"C:/Users/ADMIN/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"styles/components/badge.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"C:/Users/ADMIN/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"styles/components/estates.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"./..\\..\\assets\\images\\icons\\coin.svg":[["coin.cf64a5d2.svg","assets/images/icons/coin.svg"],"assets/images/icons/coin.svg"],"./..\\..\\assets\\images\\icons\\bath.svg":[["bath.9c7cd58b.svg","assets/images/icons/bath.svg"],"assets/images/icons/bath.svg"],"./..\\..\\assets\\images\\icons\\bed-estates.svg":[["bed-estates.c6054564.svg","assets/images/icons/bed-estates.svg"],"assets/images/icons/bed-estates.svg"],"./..\\..\\assets\\images\\icons\\ruler.svg":[["ruler.ebb881b2.svg","assets/images/icons/ruler.svg"],"assets/images/icons/ruler.svg"],"_css_loader":"C:/Users/ADMIN/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"styles/components/index.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"./icon.css":"styles/components/icon.css","./button.css":"styles/components/button.css","./revenue.css":"styles/components/revenue.css","./box.css":"styles/components/box.css","./card-resources.css":"styles/components/card-resources.css","./card-space.css":"styles/components/card-space.css","./card-services.css":"styles/components/card-services.css","./card-feature.css":"styles/components/card-feature.css","./feature-detail.css":"styles/components/feature-detail.css","./card-project.css":"styles/components/card-project.css","./subscribe.css":"styles/components/subscribe.css","./form-contact.css":"styles/components/form-contact.css","./card-blog.css":"styles/components/card-blog.css","./badge.css":"styles/components/badge.css","./estates.css":"styles/components/estates.css","_css_loader":"C:/Users/ADMIN/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"styles/sections/navbar.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
@@ -264,19 +292,27 @@ module.hot.accept(reloadCSS);
 var reloadCSS = require('_css_loader');
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./..\\..\\assets\\images\\icons\\email-box.svg":[["email-box.f1454b56.svg","assets/images/icons/email-box.svg"],"assets/images/icons/email-box.svg"],"_css_loader":"C:/Users/ADMIN/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"styles/sections/index.css":[function(require,module,exports) {
+},{"_css_loader":"C:/Users/ADMIN/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"styles/sections/contact.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./navbar.css":"styles/sections/navbar.css","./banner.css":"styles/sections/banner.css","./resources.css":"styles/sections/resources.css","./space.css":"styles/sections/space.css","./properties.css":"styles/sections/properties.css","./services.css":"styles/sections/services.css","./feature.css":"styles/sections/feature.css","./feedback.css":"styles/sections/feedback.css","./project.css":"styles/sections/project.css","_css_loader":"C:/Users/ADMIN/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"styles/index.css":[function(require,module,exports) {
+},{"./..\\..\\assets\\images\\icons\\check.svg":[["check.7d1be6bd.svg","assets/images/icons/check.svg"],"assets/images/icons/check.svg"],"_css_loader":"C:/Users/ADMIN/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"styles/sections/blog.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./utilities/index.css":"styles/utilities/index.css","./bases/index.css":"styles/bases/index.css","./layouts/index.css":"styles/layouts/index.css","./components/index.css":"styles/components/index.css","./sections/index.css":"styles/sections/index.css","_css_loader":"C:/Users/ADMIN/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"styles/utilities/variables.css":[function(require,module,exports) {
+},{"_css_loader":"C:/Users/ADMIN/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"styles/sections/estates.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"_css_loader":"C:/Users/ADMIN/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"styles/bases/global.css":[function(require,module,exports) {
+},{"./..\\..\\assets\\images\\icons\\coin.svg":[["coin.cf64a5d2.svg","assets/images/icons/coin.svg"],"assets/images/icons/coin.svg"],"./..\\..\\assets\\images\\icons\\bath.svg":[["bath.9c7cd58b.svg","assets/images/icons/bath.svg"],"assets/images/icons/bath.svg"],"./..\\..\\assets\\images\\icons\\bed-estates.svg":[["bed-estates.c6054564.svg","assets/images/icons/bed-estates.svg"],"assets/images/icons/bed-estates.svg"],"./..\\..\\assets\\images\\icons\\ruler.svg":[["ruler.ebb881b2.svg","assets/images/icons/ruler.svg"],"assets/images/icons/ruler.svg"],"_css_loader":"C:/Users/ADMIN/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"styles/sections/index.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"./navbar.css":"styles/sections/navbar.css","./banner.css":"styles/sections/banner.css","./resources.css":"styles/sections/resources.css","./space.css":"styles/sections/space.css","./properties.css":"styles/sections/properties.css","./services.css":"styles/sections/services.css","./feature.css":"styles/sections/feature.css","./feedback.css":"styles/sections/feedback.css","./project.css":"styles/sections/project.css","./contact.css":"styles/sections/contact.css","./blog.css":"styles/sections/blog.css","./estates.css":"styles/sections/estates.css","_css_loader":"C:/Users/ADMIN/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"styles/index.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"./utilities/index.css":"styles/utilities/index.css","./bases/index.css":"styles/bases/index.css","./layouts/index.css":"styles/layouts/index.css","./components/index.css":"styles/components/index.css","./sections/index.css":"styles/sections/index.css","_css_loader":"C:/Users/ADMIN/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"styles/bases/global.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
@@ -313,7 +349,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "61331" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "57270" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];

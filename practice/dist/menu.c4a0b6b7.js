@@ -118,18 +118,18 @@ parcelRequire = (function (modules, cache, entry, globalName) {
 
   return newRequire;
 })({"javascript/menu.js":[function(require,module,exports) {
-// Chọn phần tử icon menu và sidebar
-var menuIcon = document.querySelector('.icon-menu'); // Icon menu
+// Select the menu icon and sidebar elements
+var menuIcon = document.querySelector('.icon-menu'); // Menu icon
 var sidebar = document.querySelector('.nav-links-mb'); // Sidebar
 
-// Mở sidebar khi click vào icon menu
+// Open the sidebar when clicking the menu icon
 menuIcon.addEventListener('click', function () {
-  sidebar.classList.toggle('active'); // Thêm hoặc xóa class 'active' để mở/đóng sidebar
+  sidebar.classList.toggle('active'); // Toggle 'active' class to open/close the sidebar
 });
 
-// Đóng sidebar khi click vào mục trong menu
+// Close the sidebar when clicking an item in the menu
 sidebar.addEventListener('click', function () {
-  sidebar.classList.remove('active'); // Xóa class 'active' khi click vào sidebar
+  sidebar.classList.remove('active'); // Remove 'active' class when clicking inside the sidebar
 });
 },{}],"C:/Users/ADMIN/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
@@ -156,7 +156,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "61331" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "57270" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];

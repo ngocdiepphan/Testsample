@@ -15,17 +15,9 @@
   font-family: var(--font-primary);
 }
 
-@media (min-width: 1200px) {
-  .btn-signIn {
-    font-size: 18px;
-    width: 81px;
-    height: 33px;
-  }
-}
-
 .btn-start {
-  width: 200px;
-  height: 58px;
+  width: 190px;
+  height: 50px;
   color: var(--color-tertiary);
   font-family: var(--font-secondary);
   display: flex;
@@ -36,7 +28,6 @@
   gap: 10px;
   border-radius: 10px;
 }
-
 
 .btn-play {
   display: flex;
@@ -69,6 +60,7 @@
   background-color: var(--background-color-primary);
   border: 1px solid var(--btn-color-primary);
   margin-top: 40px;
+  margin-bottom: 120px;
 }
 
 .btn-explore:hover {
@@ -85,10 +77,10 @@
   background-color: var(--color-tertiary);
   color: var(--btn-color-primary);
   display: flex;
-        flex-direction: row;
-        align-items: center;
-        gap: 10px;
-        justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
 }
 
 .btn-see:hover {
@@ -110,7 +102,24 @@
   font-weight: 600;
 }
 
+.btn-form {
+  width: 129px;
+  height: 53px;
+  border-radius: 10px;
+  color: var(--color-tertiary);
+}
+
+.btn-form:hover {
+  font-weight: 600;
+}
+
 @media (min-width: 1200px) {
+  .btn-signIn {
+    font-size: 18px;
+    width: 81px;
+    height: 33px;
+  }
+
   .btn-signIn-mb {
     display: none;
   }
@@ -122,6 +131,11 @@
   .btn-play {
     width: 190px;
     height: 75px;
+  }
+
+  .btn-start {
+    width: 200px;
+    height: 58px;
   }
 
   .btn-explore {
@@ -141,5 +155,10 @@
     height: 50px;
     border-radius: 10px;
     font-size: 16px;
+  }
+
+  .btn-form {
+    width: 129px;
+    height: 53px;
   }
 }

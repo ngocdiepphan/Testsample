@@ -1,4 +1,4 @@
-.services-card  {
+.services-card {
   padding-top: 30px;
   height: 280px;
 }
@@ -38,13 +38,14 @@
   width: 44px;
   height: 46px;
 }
+
 .icon-library {
   background-image: url("../../assets/images/icons/library.svg");
   width: 44px;
   height: 46px;
 }
 
-.icon-duity {
+.icon-duty {
   background-image: url("../../assets/images/icons/duity.svg");
   width: 56px;
   height: 47px;
@@ -62,12 +63,13 @@
 }
 
 @media (min-width: 1200px) {
-  .services-card  {
+  .services-card {
     padding-top: 57px;
     padding-bottom: 40px;
     height: 340px;
     width: 100%;
   }
+
   .services-title {
     font-size: 26px;
   }

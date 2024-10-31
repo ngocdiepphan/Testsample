@@ -1,8 +1,9 @@
 .feature {
   display: flex;
-    flex-direction: column;
-    align-items: center
+  flex-direction: column;
+  align-items: center
 }
+
 .feature-wrapper {
   display: flex;
   flex-direction: column;
@@ -36,8 +37,9 @@
   height: 350px;
   display: flex;
   align-items: flex-end;
-  background-color: var( --background-color-tertiary);
+  background-color: var(--background-color-tertiary);
 }
+
 @media (min-width: 1200px) {
   .feature-wrapper {
     display: flex;

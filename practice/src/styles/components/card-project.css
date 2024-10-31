@@ -1,14 +1,15 @@
 .card-project {
-width: 280px;
-height: 150px;
-background-color: #b0b0b0;
-display: flex;
-flex-direction: column;
-border-radius: 10px;
-align-items: center;
-    justify-content: center;
-    gap: 28px;
+  width: 280px;
+  height: 150px;
+  background-color: #b0b0b0;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  gap: 28px;
 }
+
 .card-project-address {
   font-family: var(--font-secondary);
   color: var(--color-tertiary);
@@ -26,9 +27,10 @@ align-items: center;
   width: 5px;
   height: 10px;
 }
+
 @media (min-width: 1200px) {
   .card-project {
-width: 290px;
-height: 170px;
+    width: 290px;
+    height: 170px;
   }
 }

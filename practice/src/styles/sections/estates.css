@@ -1,0 +1,79 @@
+.estates {
+  width: 100%;
+  height: 460px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.estates-card {
+  width: 380px;
+  height: 150px;
+  border-radius: 20px;
+  background-color: var(--background-color-primary);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+}
+
+.estates-content {
+  display: flex;
+  flex-direction: column;
+  padding: 23px;
+  gap: 10px;
+}
+
+.icon-coin {
+  background-image: url('../../assets/images/icons/coin.svg');
+  width: 22px;
+  height: 20px;
+  position: absolute;
+  top: 60%;
+  left: 6%;
+}
+
+.estates-value {
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.estates-address {
+  color: #6d7781;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.estates-features {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.estates-detail {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 7px
+}
+
+.icon-bath {
+  background-image: url('../../assets/images/icons/bath.svg');
+  width: 30px;
+  height: 30px;
+}
+
+.icon-bed-card {
+  background-image: url('../../assets/images/icons/bed-estates.svg');
+}
+
+.icon-rule {
+  background-image: url('../../assets/images/icons/ruler.svg');
+}
+
+@media (min-width: 1200px) {
+  .estates-value {
+    font-size: 30px;
+  }
+}

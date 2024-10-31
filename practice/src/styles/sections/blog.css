@@ -1,0 +1,23 @@
+.blog {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.blog-card {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.blog-header {
+  margin-bottom: 20px;
+}
+
+@media (min-width: 1200px) {
+  .blog-card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+}

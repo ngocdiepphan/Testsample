@@ -1,13 +1,13 @@
-// Chọn phần tử icon menu và sidebar
-const menuIcon = document.querySelector('.icon-menu'); // Icon menu
+// Select the menu icon and sidebar elements
+const menuIcon = document.querySelector('.icon-menu'); // Menu icon
 const sidebar = document.querySelector('.nav-links-mb'); // Sidebar
 
-// Mở sidebar khi click vào icon menu
+// Open the sidebar when clicking the menu icon
 menuIcon.addEventListener('click', () => {
-  sidebar.classList.toggle('active'); // Thêm hoặc xóa class 'active' để mở/đóng sidebar
+  sidebar.classList.toggle('active'); // Toggle 'active' class to open/close the sidebar
 });
 
-// Đóng sidebar khi click vào mục trong menu
+// Close the sidebar when clicking an item in the menu
 sidebar.addEventListener('click', () => {
-  sidebar.classList.remove('active'); // Xóa class 'active' khi click vào sidebar
+  sidebar.classList.remove('active'); // Remove 'active' class when clicking inside the sidebar
 });

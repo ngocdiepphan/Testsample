@@ -1,15 +1,8 @@
 .container {
-    background-color: var(--background-color-second);
-    padding-left: 56px;
-    padding-right: 56px;
-    width: 100%;
-}
-
-@media (min-width: 1200px) {
-    .container {
-    padding-left: 120px;
-    padding-right: 120px;
-    }
+  background-color: var(--background-color-second);
+  padding-left: 56px;
+  padding-right: 56px;
+  width: 100%;
 }
 
 .container-content {
@@ -17,6 +10,17 @@
 }
 
 .container-aqua {
-background-color: var(--background-color-aqua);
-width: 100%;
+  background-color: var(--background-color-aqua);
+  width: 100%;
+}
+
+.container-form {
+  background-color: var(--background-color-tertiary);
+}
+
+@media (min-width: 1200px) {
+  .container {
+    padding-left: 120px;
+    padding-right: 120px;
+  }
 }

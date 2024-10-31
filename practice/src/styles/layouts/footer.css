@@ -60,13 +60,11 @@
   border-bottom: 2px solid var(--color-gray-light);
 }
 
-
 .footer-title {
   font-family: var(--color-second);
   font-weight: 700;
   color: var(--color-tertiary);
   padding-bottom: 25px;
-
 }
 
 .footer-information-list {

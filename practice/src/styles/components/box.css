@@ -6,8 +6,8 @@
 }
 
 .box {
-  width: 88px;
-  height: 60px;
+  width: 80px;
+  height: 55px;
   background-color: #848484;
   display: flex;
   align-items: flex-start;
@@ -21,8 +21,8 @@
 }
 
 .box:hover {
-  width: 114px;
-  height: 80px;
+  width: 100px;
+  height: 88px;
 }
 
 .pagination {
@@ -41,4 +41,16 @@
 .box[data-index="3"]:hover~.pagination .page[data-index="3"] {
   font-size: 20px;
   font-weight: bold;
+}
+
+@media (min-width: 1200px) {
+  .box {
+    width: 88px;
+    height: 60px;
+  }
+
+  .box:hover {
+    width: 114px;
+    height: 80px;
+  }
 }

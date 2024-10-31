@@ -1,15 +1,13 @@
 .revenue {
-  width: 140px;
-  height: 150px;
+  width: 130px;
+  height: 140px;
   border-radius: 10px;
   background-color: var(--background-color-primary);
   padding-left: 30px;
   display: flex;
   flex-direction: column;
   position: absolute;
-  /* left: 40%;
-   */
-   right: 15%;
+  right: 15%;
   top: 50%;
   gap: 20px;
   padding-top: 15px;
@@ -18,18 +16,16 @@
 .increase {
   width: 40px;
   height: 40px;
-
 }
 
 .revenue-total {
-font-size: 20px;
-font-weight: 600;
+  font-size: 20px;
+  font-weight: 600;
 }
 
 .revenue-title {
   color: var(--color-second);
 }
-
 
 @media (min-width: 1200px) {
   .revenue {
@@ -49,5 +45,5 @@ font-weight: 600;
 
   .revenue-total {
     font-size: 26px;
-    }
+  }
 }

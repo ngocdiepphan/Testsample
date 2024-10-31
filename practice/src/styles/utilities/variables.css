@@ -1,25 +1,26 @@
 :root {
+  /* Start color */
   --color-primary-transparency: #242424;
   --color-primary: #071c1f;
   --color-second: #9eabb2;
   --color-tertiary: #fff;
   --color-quaternary: #ff5a3c;
   --color-gray-light: #666;
+  /* End color */
 
+  /* Start background */
   --background-color-primary: #fff;
   --background-color-second: #171b2a;
   --background-color-tertiary: #c4c4c4;
   --background-color-aqua: #f2f6f7;
+  /* End background */
 
+  /* Start color button */
   --btn-color-primary: #ff5a3c;
+  /* End color button */
 
-
-  /* --border-primary: 1px solid rgba(25, 24, 37, 0.1);
-    --border-button: 1px solid rgb(238, 238, 238); */
-
-  --font-weight-regular: 400;
-
+  /* Start font */
   --font-primary: "Poppins";
   --font-secondary: "Nunito";
-  /* --tertiary-font: "Montserrat"; */
+  /* End font */
 }

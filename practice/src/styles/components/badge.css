@@ -1,0 +1,34 @@
+.badge {
+  background-color: var(--btn-color-primary);
+  color: var(--color-tertiary);
+  border-radius: 50%;
+  width: 110px;
+  height: 110px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  position: absolute;
+  text-transform: uppercase;
+  gap: 10px;
+  left: 90px;
+  top: 400px;
+}
+
+.badge-text {
+  font-size: 18px;
+}
+
+.badge-count {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+@media (min-width: 1200px) {
+  .badge {
+    width: 150px;
+    height: 150px;
+    left: 140px;
+    top: 379px;
+  }
+}

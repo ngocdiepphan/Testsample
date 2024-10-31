@@ -46,42 +46,30 @@
   max-width: 800px;
   margin: auto;
   gap: 10px;
-  /* Khoảng cách giữa các div */
 }
 
 .properties-left {
   flex: 2;
-  /* Chiếm 2 phần trong tổng số 3 phần */
   background-color: var(--background-color-tertiary);
-  /* Màu nền cho phần bên trái */
   height: 300px;
-  /* Chiều cao cố định */
 }
 
 .properties-right {
   flex: 1;
-  /* Chiếm 1 phần trong tổng số 3 phần */
   display: flex;
   flex-direction: column;
-  /* Sắp xếp theo chiều dọc */
   height: 300px;
-  /* Chiều cao cố định */
 }
 
 .properties-top {
   flex: 1;
-  /* Chiếm 1 nửa chiều cao của properties-right */
   background-color: var(--background-color-tertiary);
-  /* Màu nền cho phần trên */
   margin-bottom: 10px;
-  /* Khoảng cách giữa hai phần */
 }
 
 .properties-bottom {
   flex: 1;
-  /* Chiếm 1 nửa chiều cao của properties-right */
   background-color: var(--background-color-tertiary);
-  /* Màu nền cho phần dưới */
 }
 
 @media (min-width: 1200px) {
@@ -91,11 +79,9 @@
 
   .properties-left {
     height: 400px;
-    /* Chiều cao cố định */
   }
 
   .properties-right {
     height: 400px;
   }
-
 }
