@@ -122,14 +122,25 @@ parcelRequire = (function (modules, cache, entry, globalName) {
 var menuIcon = document.querySelector('.icon-menu'); // Menu icon
 var sidebar = document.querySelector('.nav-links-mb'); // Sidebar
 
-// Open the sidebar when clicking the menu icon
-menuIcon.addEventListener('click', function () {
+// Open or close the sidebar when clicking the menu icon
+menuIcon.addEventListener('click', function (event) {
+  event.stopPropagation(); // Prevent click event from closing sidebar immediately
   sidebar.classList.toggle('active'); // Toggle 'active' class to open/close the sidebar
 });
 
-// Close the sidebar when clicking an item in the menu
-sidebar.addEventListener('click', function () {
-  sidebar.classList.remove('active'); // Remove 'active' class when clicking inside the sidebar
+// Close the sidebar when clicking a link in the menu
+sidebar.addEventListener('click', function (event) {
+  if (event.target.matches('a')) {
+    // Check if the clicked element is a link
+    sidebar.classList.remove('active'); // Remove 'active' class when clicking a link
+  }
+});
+
+// Close the sidebar when clicking outside of it
+document.addEventListener('click', function (event) {
+  if (!sidebar.contains(event.target) && !menuIcon.contains(event.target)) {
+    sidebar.classList.remove('active'); // Close sidebar when clicking outside
+  }
 });
 },{}],"C:/Users/ADMIN/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
@@ -156,7 +167,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53004" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "52321" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];

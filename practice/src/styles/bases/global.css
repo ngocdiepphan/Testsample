@@ -6,6 +6,9 @@
 body {
   background-color: var(--background-color-primary);
   font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 a {
@@ -17,4 +20,14 @@ html {
   height: 100%;
   font-family: var(--background-color-primary);
   font-weight: 400;
+}
+
+.main {
+  max-width: 480px;
+}
+
+@media (min-width: 1200px) {
+  .main {
+    max-width: 1200px;
+  }
 }

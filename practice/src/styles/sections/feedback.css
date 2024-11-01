@@ -68,12 +68,14 @@
   background-image: url('../../assets/images/icons/next-left.svg');
   width: 60px;
   height: 74px;
+  cursor: pointer;
 }
 
 .icon-next-right-mb {
   background-image: url('../../assets/images/icons/next-right.svg');
   width: 62px;
   height: 130px;
+  cursor: pointer;
 }
 
 .feedback-rating {
@@ -149,6 +151,7 @@
     width: 60px;
     height: 74px;
     display: block;
+    cursor: pointer;
   }
 
   .icon-next-right {
@@ -156,6 +159,7 @@
     width: 62px;
     height: 130px;
     display: block;
+    cursor: pointer;
   }
 
   .icon-next-left-mb {

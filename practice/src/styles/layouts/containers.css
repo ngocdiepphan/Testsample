@@ -3,6 +3,7 @@
   padding-left: 56px;
   padding-right: 56px;
   width: 100%;
+  max-width: 480px;
 }
 
 .container-content {
@@ -16,11 +17,18 @@
 
 .container-form {
   background-color: var(--background-color-tertiary);
+  width: 100%;
 }
 
 @media (min-width: 1200px) {
   .container {
     padding-left: 120px;
     padding-right: 120px;
+    max-width: 1200px;
+  }
+
+  .container-aqua {
+    background-color: var(--background-color-aqua);
+    max-width: 1200px;
   }
 }

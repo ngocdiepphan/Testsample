@@ -35,6 +35,9 @@
 body {
   background-color: var(--background-color-primary);
   font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 a {
@@ -46,6 +49,16 @@ html {
   height: 100%;
   font-family: var(--background-color-primary);
   font-weight: 400;
+}
+
+.main {
+  max-width: 480px;
+}
+
+@media (min-width: 1200px) {
+  .main {
+    max-width: 1200px;
+  }
 }
 
 /* http://meyerweb.com/eric/tools/css/reset/
@@ -205,6 +218,7 @@ table {
   padding-left: 56px;
   padding-right: 56px;
   width: 100%;
+  max-width: 480px;
 }
 
 .container-content {
@@ -218,12 +232,19 @@ table {
 
 .container-form {
   background-color: var(--background-color-tertiary);
+  width: 100%;
 }
 
 @media (min-width: 1200px) {
   .container {
     padding-left: 120px;
     padding-right: 120px;
+    max-width: 1200px;
+  }
+
+  .container-aqua {
+    background-color: var(--background-color-aqua);
+    max-width: 1200px;
   }
 }
 
@@ -350,6 +371,7 @@ table {
   flex-direction: row;
   gap: 14px;
   width: 136px;
+  cursor: pointer;
 }
 
 .footer-information {
@@ -367,6 +389,7 @@ table {
 .information-contact {
   color: var(--color-second);
   margin-bottom: 30px;
+  cursor: pointer;
 }
 
 .information-contact-mb {
@@ -413,6 +436,7 @@ table {
   background-image: url('/mail-footer.cec12424.svg');
   width: 25px;
   height: 17px;
+  cursor: pointer;
 }
 
 .footer-mail {
@@ -451,6 +475,7 @@ table {
   justify-content: space-between;
   gap: 10px;
   padding-bottom: 30px;
+  cursor: pointer;
 }
 
 @media (min-width: 1200px) {
@@ -587,6 +612,7 @@ table {
   border: 1px solid var(--btn-color-primary);
   margin-top: 40px;
   margin-bottom: 120px;
+  cursor: pointer;
 }
 
 .btn-explore:hover {
@@ -607,6 +633,7 @@ table {
   align-items: center;
   gap: 10px;
   justify-content: center;
+  cursor: pointer;
 }
 
 .btn-see:hover {
@@ -637,6 +664,10 @@ table {
 
 .btn-form:hover {
   font-weight: 600;
+}
+
+.btn-read {
+  margin-bottom: 0;
 }
 
 @media (min-width: 1200px) {
@@ -1358,6 +1389,7 @@ table {
   flex-direction: row;
   align-items: center;
   position: relative;
+  cursor: pointer;
 }
 
 .estates-content {
@@ -1472,6 +1504,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
+  z-index: 1;
 }
 
 .nav-links-dt {
@@ -1959,12 +1992,14 @@ a {
   background-image: url('/next-left.c6431a66.svg');
   width: 60px;
   height: 74px;
+  cursor: pointer;
 }
 
 .icon-next-right-mb {
   background-image: url('/next-right.5b286f09.svg');
   width: 62px;
   height: 130px;
+  cursor: pointer;
 }
 
 .feedback-rating {
@@ -2040,6 +2075,7 @@ a {
     width: 60px;
     height: 74px;
     display: block;
+    cursor: pointer;
   }
 
   .icon-next-right {
@@ -2047,6 +2083,7 @@ a {
     width: 62px;
     height: 130px;
     display: block;
+    cursor: pointer;
   }
 
   .icon-next-left-mb {
@@ -2189,6 +2226,7 @@ a {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
+    margin-bottom: 0;
   }
 
   .contact-header {
